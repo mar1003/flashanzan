@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>フラッシュ暗算</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="display-area">
+            <span id="number-display"></span>
+        </div>
+
+        <div id="controls-area">
+            <button id="start-button">スタート</button>
+            <p id="result"></p>
+            <button id="next-button" style="display: none;">つぎのもんだい</button>
+        </div>
+
+        <div id="input-area" style="display: none;">
+            <div id="answer-display-container">
+                <span id="answer-prompt">こたえは？ </span>
+                <span id="answer-display"></span>
+            </div>
+            <div id="keypad">
+                <button class="keypad-btn number">7</button>
+                <button class="keypad-btn number">8</button>
+                <button class="keypad-btn number">9</button>
+                <button class="keypad-btn number">4</button>
+                <button class="keypad-btn number">5</button>
+                <button class="keypad-btn number">6</button>
+                <button class="keypad-btn number">1</button>
+                <button class="keypad-btn number">2</button>
+                <button class="keypad-btn number">3</button>
+                <button class="keypad-btn clear">けす</button>
+                <button class="keypad-btn number">0</button>
+                <button class="keypad-btn check">こたえあわせ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
